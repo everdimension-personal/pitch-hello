@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func recordAction(_ sender: Any) {
+        print("button is clicked")
+    }
+    
 }
 
